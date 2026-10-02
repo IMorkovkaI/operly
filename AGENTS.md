@@ -1,9 +1,18 @@
-<!-- BEGIN:nextjs-agent-rules -->
+## Description
+The project is SaaS platform built with Next.js + Tailwind CSS. The idea of the platform is generic SaaS without any creative idea beside design system of the project.
 
-# This is NOT the Next.js you know
+## Instructions
+- Create simple Saas system for this project
+- The priority should be on implementing first-class design system while backend operations should be simplified
+- architecture from which to choose - Next.js + TypeScript, PostgreSQL,Prisma,Auth.js / Clerk, Stripe, Zod, React Hook Form, Tailwind, TanStack Query if necessary, Vitest/Jest, Playwright, Docker
+- create your own documentation no monitor the process of developing project 
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+## Limitations
+- ask if anything is unclear
+- https://medium.com/design-bootcamp/how-to-stop-your-frontend-looking-ai-generated-efbb9681a6a2 as a lever of limitation of AI-generated content
+- trying to handpick crafted design instead of getting actual parameters from design system, everything that is needed is on draft
 
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
-<!-- END:nextjs-agent-rules -->
+## Example of the solution
+- Use following design system to create/mimick UI (https://www.figma.com/design/dv7JxRZLHIP8u5S9dxr9Jj/Taskzen-%25E2%2580%2593-Free-AI-SaaS-Landing-Page-Template--Light-Theme---Community-?node-id=0-1&p=f&t=s9R73K8pYC9EINTo-0)
+- example of Saas systems as an example: https://bubble.io/ , https://www.weweb.io/ , https://www.docusign.com/ 
